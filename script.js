@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
         buttonContainer.style.display = 'flex';
         buttonContainer.style.animation = 'fadeIn 1s ease-in-out';
     }, 1500); // 1.5 second delay
-
     // 6. For fun, when cursor is hovered on No, it swaps place with Yes
     let isSwapped = false;
     btnNo.addEventListener('mouseenter', () => {
